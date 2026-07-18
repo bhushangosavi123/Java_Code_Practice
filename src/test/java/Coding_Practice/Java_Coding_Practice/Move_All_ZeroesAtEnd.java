@@ -24,6 +24,8 @@ public class Move_All_ZeroesAtEnd {
 			}
 		}
 
+		
+		
 		for (int n : array) {
 
 			System.out.print(n + " ");

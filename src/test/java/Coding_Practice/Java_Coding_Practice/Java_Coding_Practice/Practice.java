@@ -8,21 +8,28 @@ public class Practice {
 
 	public static void main(String[] args) {
 
-		int input = 132456789;
-
-		String str = String.valueOf(input);
-
-		System.out.print("Even index digits: ");
-		for (int i = 0; i < str.length(); i += 2) {
-			System.out.print(str.charAt(i) + " ");
+		int[] array = { 1, 2, 4, 5, 6 };
+		int number = 6;
+		
+		int totalsumofarr = number * (number+1)/2;
+		
+		
+		System.out.println("totalsumofarr "+totalsumofarr);
+		
+		
+		int sumofarray = 0;
+		for(int i =0;i<array.length;i++)
+		{
+			
+			sumofarray = sumofarray + array[i];
+			
+			
 		}
-
-		System.out.println();
-
-		System.out.print("Odd index digits: ");
-		for (int i = 1; i < str.length(); i += 2) {
-			System.out.print(str.charAt(i) + " ");
-		}
-
+		
+		System.out.println("sumofarray "+sumofarray);
+		
+		
+		System.out.println("Missing Number " + (totalsumofarr-sumofarray));
+		
 	}
 }
