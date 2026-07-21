@@ -1,5 +1,6 @@
 package Coding_Practice.Java_Coding_Practice.Java_Coding_Practice;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
@@ -8,28 +9,25 @@ public class Practice {
 
 	public static void main(String[] args) {
 
-		int[] array = { 1, 2, 4, 5, 6 };
-		int number = 6;
-		
-		int totalsumofarr = number * (number+1)/2;
-		
-		
-		System.out.println("totalsumofarr "+totalsumofarr);
-		
-		
-		int sumofarray = 0;
-		for(int i =0;i<array.length;i++)
+		int n = 5;
+
+		// spaces = n -1
+		// Stars = 2*i -1
+
+		for (int i = 1; i <= n; i++) 
 		{
-			
-			sumofarray = sumofarray + array[i];
-			
-			
+			for (int j = 1; j <= n - i; j++) 
+			{
+				System.out.print(" ");
+			}
+			for (int j = 1; j <= (2 * i - 1); j++) 
+			{
+				System.out.print("*");
+
+			}
+			System.out.println();
 		}
-		
-		System.out.println("sumofarray "+sumofarray);
-		
-		
-		System.out.println("Missing Number " + (totalsumofarr-sumofarray));
-		
+
 	}
+
 }

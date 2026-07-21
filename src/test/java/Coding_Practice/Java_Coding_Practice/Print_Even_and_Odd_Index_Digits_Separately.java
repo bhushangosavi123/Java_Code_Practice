@@ -7,19 +7,23 @@ public class Print_Even_and_Odd_Index_Digits_Separately {
 		int input = 132456789;
 
 		String str = String.valueOf(input);
+		StringBuilder even = new StringBuilder();
+		StringBuilder odd = new StringBuilder();
 
-		System.out.print("Even index digits: ");
 		for (int i = 0; i < str.length(); i += 2) {
-			System.out.print(str.charAt(i) + " ");
+
+			even.append(str.charAt(i)).append(" ");
 		}
 
-		System.out.println();
+		System.out.println("Even index digits: " + even.append(" ").toString());
 
-		System.out.print("Odd index digits: ");
 		for (int i = 1; i < str.length(); i += 2) {
-			System.out.print(str.charAt(i) + " ");
+
+			odd.append(str.charAt(i)).append(" ");
+
 		}
 
+		System.out.print("Odd index digits: " + odd.append(" ").toString());
 	}
 
 }

@@ -6,7 +6,7 @@ public class CHeck_Prime_Number {
 		// TODO Auto-generated method stub
 		
 		
-		int number = 29;
+		int number = 23;
 		
 		boolean isprime = true;
 		
@@ -14,10 +14,12 @@ public class CHeck_Prime_Number {
 		{
 			
 			isprime = false;
-		}else
+			
+		}
+		else
 		{
 			
-			for(int i =2 ;i<=Math.sqrt(number);i++)
+			for(int i =2 ; i <=Math.sqrt(number);i++)
 			{
 				if(number%i==0)
 				{
@@ -29,7 +31,7 @@ public class CHeck_Prime_Number {
 		
 		}
 		
-		System.out.println(number +" is " + (isprime ? "Is Prime Number" : "Is not Prime Number"));
+		System.out.println(number + (isprime ? " Is Prime Number" : " Is not Prime Number"));
 		
 		
 		

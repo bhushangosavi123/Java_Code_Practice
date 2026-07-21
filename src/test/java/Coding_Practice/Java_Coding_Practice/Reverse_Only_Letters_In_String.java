@@ -18,6 +18,7 @@ public class Reverse_Only_Letters_In_String {
 			// Move left pointer until it finds a letter
 			if (!Character.isLetter(array[left])) {
 				left++;
+			
 
 			}
 
