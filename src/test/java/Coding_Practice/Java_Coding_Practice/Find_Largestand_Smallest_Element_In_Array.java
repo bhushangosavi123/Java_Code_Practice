@@ -10,6 +10,8 @@ public class Find_Largestand_Smallest_Element_In_Array {
 
 		int smallest = arr[0];
 		int Largest = arr[0];
+		
+		
 
 		for (int i = 1; i < arr.length; i++)
 
@@ -21,6 +23,8 @@ public class Find_Largestand_Smallest_Element_In_Array {
 			}
 
 			if (arr[i] > Largest) {
+				
+			
 				Largest = arr[i];
 
 			}
@@ -29,6 +33,7 @@ public class Find_Largestand_Smallest_Element_In_Array {
 
 		System.out.println(Largest);
 		System.out.println(smallest);
+		
 
 	}
 

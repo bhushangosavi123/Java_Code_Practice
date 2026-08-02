@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Coding_Practice.Java_Coding_Practice.Palindrome_Check">
+      <class name="Coding_Practice.Java_Coding_Practice.Read_Excel_Data">
         <methods>
-          <include name="usingforloop"/>
+          <include name="readexceldata"/>
         </methods>
-      </class> <!-- Coding_Practice.Java_Coding_Practice.Palindrome_Check -->
+      </class> <!-- Coding_Practice.Java_Coding_Practice.Read_Excel_Data -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

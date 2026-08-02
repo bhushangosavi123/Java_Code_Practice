@@ -22,7 +22,7 @@ public class Find_Most_Repeated_Character {
 
 		System.out.println("Map is " + map);
 
-		char maxChar = ' ';
+		char maxChar = 0;
 		int maxCount = 0;
 
 		for (char key : map.keySet()) {
@@ -30,23 +30,21 @@ public class Find_Most_Repeated_Character {
 			if (map.get(key) > maxCount) {
 				maxCount = map.get(key);
 				maxChar = key;
-				
-				
+
 			}
 
-			
-
 		}
-		//System.out.println("Most repeated character : " + maxChar);
-		System.out.println("Occurrence count        : " + maxCount);
+
+		System.out.println("Most repeated character : " + maxChar);
 		
-		
-		for(char key : map.keySet())
-		{
-			if(map.get(key) == maxCount)
-			{
-				
-				System.out.println(key + "=" + map.get(key));
+		//For All Repeated
+
+		System.out.println("Occurrence count : " + maxCount);
+
+		for (char key : map.keySet()) {
+			if (map.get(key) == maxCount) {
+
+				System.out.println(key + " = " + map.get(key));
 			}
 		}
 

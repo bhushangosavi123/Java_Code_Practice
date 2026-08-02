@@ -34,6 +34,8 @@ public class separate_oddposition_digits_and_evenposition_digits {
 
 		int input = 132456789;
 		String str = String.valueOf(input);
+		//or
+		String str2 = Integer.toString(input);
 
 		StringBuilder odd = new StringBuilder();
 		StringBuilder even = new StringBuilder();

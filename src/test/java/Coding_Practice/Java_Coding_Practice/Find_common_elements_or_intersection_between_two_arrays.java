@@ -35,7 +35,7 @@ public class Find_common_elements_or_intersection_between_two_arrays {
 
 		// Method 2: Without Using HashSet
 
-		int[] arr3 = { 1, 2, 3, 4, 5 };
+		int[] arr3 = { 1, 2, 3, 4, 5 ,5};
 		int[] arr4 = { 3, 4, 5, 6, 7 };
 		
 		

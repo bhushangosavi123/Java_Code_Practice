@@ -28,30 +28,36 @@ public class Second_largestValue_From_Array {
 
 	@Test
 	public static void second_Largest_Number_withoutSOrt() {
-		int[] Array = { 1, 3, 5, 88,88, 4, 99, 3,3, 4 };
+		// int[] Array = { 1, 3, 5, 88,88, 4, 99, 99,3, 4 };
+
+		int[] Array = { 5, 15, 12,9,13};
 
 		int LargestNo = Integer.MIN_VALUE;
 		int SecondLargestNo = Integer.MIN_VALUE;
 
-		for (int Num : Array) {
+		for (int Num : Array) 
+		{
 			if (Num > LargestNo)
-
 			{
 				SecondLargestNo = LargestNo;
 				LargestNo = Num;
-				
 
-			} else if (Num > SecondLargestNo && Num != LargestNo)
-
-			{
-				SecondLargestNo = Num;
-		
 			}
+			
+			
+			  else if (Num > SecondLargestNo && Num != LargestNo)
+			  
+			  { 
+				  SecondLargestNo = Num;
+			  
+			  }
+			 
+			 
 
 		}
 
 		System.out.println("SecondLargestNo " + SecondLargestNo);
-		System.out.println("LargestNo "+LargestNo);
+		System.out.println("LargestNo " + LargestNo);
 
 	}
 

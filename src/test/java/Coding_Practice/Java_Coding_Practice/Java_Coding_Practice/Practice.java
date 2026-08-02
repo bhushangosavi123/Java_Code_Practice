@@ -8,26 +8,48 @@ import java.util.LinkedHashSet;
 public class Practice {
 
 	public static void main(String[] args) {
-
-		int n = 5;
-
-		// spaces = n -1
-		// Stars = 2*i -1
-
-		for (int i = 1; i <= n; i++) 
+		
+		String str1 = "Listen";
+		String str2= "Silent"; 
+		
+		if(str1.length()!=str2.length())
 		{
-			for (int j = 1; j <= n - i; j++) 
-			{
-				System.out.print(" ");
-			}
-			for (int j = 1; j <= (2 * i - 1); j++) 
-			{
-				System.out.print("*");
-
-			}
-			System.out.println();
+			
+			System.out.println("Not an anagram");
+			return;
 		}
-
+		
+		
+		
+		char[] str1arr = str1.toLowerCase().toCharArray();
+		Arrays.sort(str1arr);
+		
+		
+		
+		
+		
+		
+		
+		
+		char[] str2arr = str2.toLowerCase().toCharArray();
+		Arrays.sort(str2arr);
+		
+		
+		
+		
+		if(Arrays.equals(str1arr,str2arr))
+		{
+			
+			System.out.println("This is anagram");
+		}
+		else
+		{
+			System.out.println("Not an anagram");
+		}
+		
+		
+		
 	}
 
+	
 }
