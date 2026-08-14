@@ -19,7 +19,7 @@ public class Practice {
 			return;
 		}
 		
-		
+		1233445
 		
 		char[] str1arr = str1.toLowerCase().toCharArray();
 		Arrays.sort(str1arr);
