@@ -2,7 +2,7 @@ package Coding_Practice.Java_Coding_Practice;
 
 import org.testng.annotations.Test;
 
-public class Find_Largestand_Smallest_Element_In_Array {
+public class B14_Find_Largestand_Smallest_Element_In_Array {
 
 	@Test
 	public void LargestandSmallestElement() {

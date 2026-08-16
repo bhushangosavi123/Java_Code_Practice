@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import org.testng.annotations.Test;
 
-public class Triangle_Patterns_with_Star {
+public class D40_Triangle_Patterns_with_Star {
 
 	@Test
 	public static void RightAngleTraingle() {

@@ -7,7 +7,7 @@ import java.util.List;
 
 import org.testng.annotations.Test;
 
-public class Second_largestValue_From_Array {
+public class B15_Second_largestValue_From_Array {
 
 	public static void main(String[] args) {
 

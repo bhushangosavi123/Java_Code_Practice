@@ -2,7 +2,7 @@ package Coding_Practice.Java_Coding_Practice;
 
 import org.testng.annotations.Test;
 
-public class Reverse_An_Integer {
+public class A3_Reverse_An_Integer {
 	
 	@Test
 	public void reverse_An_Integer()

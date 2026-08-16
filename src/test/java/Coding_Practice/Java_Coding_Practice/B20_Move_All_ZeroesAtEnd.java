@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 import org.testng.annotations.Test;
 
-public class Move_All_ZeroesAtEnd {
+public class B20_Move_All_ZeroesAtEnd {
 
 	@Test
 	public void MoveallzeroestoEnd() {

@@ -1,6 +1,6 @@
 package Coding_Practice.Java_Coding_Practice;
 
-public class Floyed_Traingle {
+public class E41_Floyed_Traingle {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

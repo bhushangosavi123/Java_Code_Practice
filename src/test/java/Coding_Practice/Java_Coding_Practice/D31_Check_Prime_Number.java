@@ -1,6 +1,6 @@
 package Coding_Practice.Java_Coding_Practice;
 
-public class CHeck_Prime_Number {
+public class D31_Check_Prime_Number {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

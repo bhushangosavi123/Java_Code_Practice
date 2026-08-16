@@ -3,7 +3,7 @@ package Coding_Practice.Java_Coding_Practice;
 import java.time.Year;
 import java.util.Scanner;
 
-public class Leap_Year_Program {
+public class D35_Leap_Year_Program {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

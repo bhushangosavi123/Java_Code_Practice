@@ -5,7 +5,7 @@ import java.util.LinkedHashSet;
 
 import org.testng.annotations.Test;
 
-public class Remove_duplicates_in_String_and_Array {
+public class A7_A8_Remove_duplicates_in_String_and_Array {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

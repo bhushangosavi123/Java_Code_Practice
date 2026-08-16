@@ -3,7 +3,7 @@ package Coding_Practice.Java_Coding_Practice;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class Reverse_The_String {
+public class A2_Reverse_The_String {
 
 	// **************Method 1: Using a for loop*****************************
 
@@ -27,8 +27,7 @@ public class Reverse_The_String {
 
 	}
 
-	// ***************************Method 2: Using
-	// StringBuilder*******************************************************
+	// ***************************Method 2: Using StringBuilder******************************
 
 	@Test
 	public void reverse_use_stringbuilder() {
@@ -38,41 +37,6 @@ public class Reverse_The_String {
 
 	}
 
-	// ******************************************Reverse Words in a Sentence*********************************
-	@Test
-	public void ReverseWordsinaSentence() {
-		String sentence = "I love testing";
-		String[] words = sentence.split(" ");
-		String reversed = "";
-
-		for (int i = words.length - 1; i >= 0; i--) {
-			reversed = reversed + words[i] + " ";
-		}
-
-		System.out.println(reversed.trim());
-		// System.out.println(reversed);
-	}
-
-	// ********************************Reverse every char of word but keep order of sentence********************************************
-	// Problem:
-	// Input: "Hello World from Pune"
-	// Output: "olleH dlroW morf enuP"
-
-	@Test
-	public void reverse_Word_in_Sentence_Order() {
-		String input1 = "Hello World from Pune";
-
-		String[] words = input1.split(" "); // Splits based on Spaces
-		StringBuilder Result = new StringBuilder();
-
-		for (int i = 0; i < words.length; i++) {
-
-			StringBuilder reverseword = new StringBuilder(words[i]);
-			Result.append(reverseword.reverse().append(" "));
-
-		}
-
-		System.out.println(Result.toString().trim());
-
-	}
+	
+	
 }

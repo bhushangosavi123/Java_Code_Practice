@@ -1,6 +1,6 @@
 package Coding_Practice.Java_Coding_Practice;
 
-public class Fibonacci_Series_Program {
+public class D32_Fibonacci_Series_Program {
 
 	public static void main(String[] args) {
 

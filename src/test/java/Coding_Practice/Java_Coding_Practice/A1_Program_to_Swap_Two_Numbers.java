@@ -3,7 +3,7 @@ package Coding_Practice.Java_Coding_Practice;
 import org.testng.annotations.Test;
 
 //**************************Using Temp Variable*********************************
-public class Program_to_Swap_Two_Numbers {
+public class A1_Program_to_Swap_Two_Numbers {
 
 	@Test
 	public void swap_Numbers() {

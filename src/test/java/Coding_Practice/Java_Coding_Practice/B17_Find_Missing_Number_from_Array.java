@@ -2,7 +2,7 @@ package Coding_Practice.Java_Coding_Practice;
 
 import org.testng.annotations.Test;
 
-public class Find_Missing_Number_from_Array {
+public class B17_Find_Missing_Number_from_Array {
 
 	@Test
 	public void missingnumber_from_array() {

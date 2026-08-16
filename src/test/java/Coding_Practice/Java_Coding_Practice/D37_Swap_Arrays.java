@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 import org.testng.annotations.Test;
 
-public class Swap_Arrays {
+public class D37_Swap_Arrays {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

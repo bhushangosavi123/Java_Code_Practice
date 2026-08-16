@@ -2,7 +2,7 @@ package Coding_Practice.Java_Coding_Practice;
 
 import java.util.HashMap;
 
-public class Find_Least_Repeated_Character {
+public class C25_Find_Least_Repeated_Character {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

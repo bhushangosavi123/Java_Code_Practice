@@ -2,7 +2,7 @@ package Coding_Practice.Java_Coding_Practice;
 
 import org.testng.annotations.Test;
 
-public class Print_Only_Even_Words_From_String {
+public class B18_Print_Only_Even_Words_From_String {
 
 	@Test
 	public static void Evenwords() {

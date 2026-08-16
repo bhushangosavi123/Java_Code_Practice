@@ -2,7 +2,7 @@
 
 import org.testng.annotations.Test;
 
-public class Find_Lenght_of_Last_Word {
+public class B16_Find_Lenght_of_Last_Word {
 
 	// ***************************Find Length of Last word in a  string*******************************
 
@@ -19,7 +19,7 @@ public class Find_Lenght_of_Last_Word {
 
 		for (int i = chararray.length - 1; i >= 0; i--) {
 
-			if (chararray[i] != ' ') {
+			if (chararray[i] !=' ') {
 				count++;
 				//count = count + 1;
 			}

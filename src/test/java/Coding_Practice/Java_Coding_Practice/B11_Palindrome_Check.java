@@ -2,7 +2,7 @@ package Coding_Practice.Java_Coding_Practice;
 
 import org.testng.annotations.Test;
 
-public class Palindrome_Check {
+public class B11_Palindrome_Check {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -2,7 +2,7 @@ package Coding_Practice.Java_Coding_Practice;
 
 import org.testng.annotations.Test;
 
-public class Reverse_Only_Letters_In_String {
+public class C21_Reverse_Only_Letters_In_String {
 
 	@Test
 	public void Reverse_Only_Letters() {

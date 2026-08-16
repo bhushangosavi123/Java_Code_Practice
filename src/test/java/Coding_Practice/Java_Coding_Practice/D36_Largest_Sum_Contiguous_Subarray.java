@@ -2,7 +2,7 @@ package Coding_Practice.Java_Coding_Practice;
 
 import java.util.Arrays;
 
-public class Largest_Sum_Contiguous_Subarray {
+public class D36_Largest_Sum_Contiguous_Subarray {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 import org.testng.annotations.Test;
 
-public class Find_First_Non_Repeating_character {
+public class C23_Find_First_Non_Repeating_character {
 	
 
 	    public static void main(String[] args) {

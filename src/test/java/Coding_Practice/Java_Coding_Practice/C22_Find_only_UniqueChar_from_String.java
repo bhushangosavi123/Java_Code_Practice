@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 import org.testng.annotations.Test;
 
-public class Find_only_UniqueChar_from_String {
+public class C22_Find_only_UniqueChar_from_String {
 	
 
 	    public static void main(String[] args) {

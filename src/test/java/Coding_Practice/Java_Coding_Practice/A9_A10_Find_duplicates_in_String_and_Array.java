@@ -5,7 +5,7 @@ import java.util.LinkedHashSet;
 
 import org.testng.annotations.Test;
 
-public class Find_duplicates_in_String_and_Array {
+public class A9_A10_Find_duplicates_in_String_and_Array {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

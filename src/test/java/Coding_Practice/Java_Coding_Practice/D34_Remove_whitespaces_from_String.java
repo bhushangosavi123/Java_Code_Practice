@@ -1,6 +1,6 @@
 package Coding_Practice.Java_Coding_Practice;
 
-public class Remove_whitespaces_from_String {
+public class D34_Remove_whitespaces_from_String {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

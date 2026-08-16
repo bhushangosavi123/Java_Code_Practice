@@ -2,7 +2,7 @@ package Coding_Practice.Java_Coding_Practice;
 
 import java.util.Arrays;
 
-public class Binary_Search {
+public class C26_Binary_Search {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

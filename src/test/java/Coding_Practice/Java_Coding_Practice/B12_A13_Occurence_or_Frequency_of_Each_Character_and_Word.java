@@ -5,7 +5,7 @@ import java.util.List;
 
 import org.testng.annotations.Test;
 
-public class Occurence_or_Frequency_of_Each_Character_and_Word {
+public class B12_A13_Occurence_or_Frequency_of_Each_Character_and_Word {
 
 	@Test
 	public void Occurenceofeachword() {

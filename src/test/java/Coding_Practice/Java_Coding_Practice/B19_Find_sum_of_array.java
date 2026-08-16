@@ -2,7 +2,7 @@ package Coding_Practice.Java_Coding_Practice;
 
 import org.testng.annotations.Test;
 
-public class Find_sum_of_array {
+public class B19_Find_sum_of_array {
 
 	@Test
 	public void sumofarray() {

@@ -1,6 +1,6 @@
 package Coding_Practice.Java_Coding_Practice;
 
-public class Convert_SecondCharacter_to_UpperCase {
+public class C27_Convert_SecondCharacter_to_UpperCase {
 
 	public static void main(String[] args) {
 

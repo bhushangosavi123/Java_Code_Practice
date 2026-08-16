@@ -4,7 +4,7 @@ import java.util.LinkedHashSet;
 
 import org.testng.annotations.Test;
 
-public class Factorial {
+public class A6_Factorial {
 
 	@Test
 	public void Factorial() {

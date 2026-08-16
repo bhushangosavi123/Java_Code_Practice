@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 /**
  * 
  */
-public class Find_Anagram_in_String {
+public class C30_Find_Anagram_in_String {
 	
 	@Test
 	public void Anagram()

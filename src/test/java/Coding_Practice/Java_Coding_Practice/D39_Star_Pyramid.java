@@ -2,7 +2,7 @@ package Coding_Practice.Java_Coding_Practice;
 
 import org.testng.annotations.Test;
 
-public class Star_Pyramid {
+public class D39_Star_Pyramid {
 
 	@Test
 	public static void StarPyramid() {

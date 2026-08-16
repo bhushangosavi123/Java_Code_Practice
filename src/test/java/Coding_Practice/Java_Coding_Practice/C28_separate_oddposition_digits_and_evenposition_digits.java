@@ -1,6 +1,6 @@
 package Coding_Practice.Java_Coding_Practice;
 
-public class separate_oddposition_digits_and_evenposition_digits {
+public class C28_separate_oddposition_digits_and_evenposition_digits {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
