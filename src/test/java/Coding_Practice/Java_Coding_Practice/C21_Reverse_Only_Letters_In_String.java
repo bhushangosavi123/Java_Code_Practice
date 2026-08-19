@@ -1,5 +1,7 @@
 package Coding_Practice.Java_Coding_Practice;
 
+import java.util.Arrays;
+
 import org.testng.annotations.Test;
 
 public class C21_Reverse_Only_Letters_In_String {
@@ -40,6 +42,7 @@ public class C21_Reverse_Only_Letters_In_String {
 		// String result = new String(array);
 		System.out.println("Output: " + new String(array));
 
+		System.out.println("Output: " + Arrays.toString(array));
 	}
 
 }

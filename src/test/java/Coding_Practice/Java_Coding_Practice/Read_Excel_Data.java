@@ -15,17 +15,17 @@ public class Read_Excel_Data {
 	@Test
 	public void readexceldata() throws IOException
 	{
-		File file =new File("C:\\Users\\bhushgos\\OneDrive - AMDOCS\\Desktop\\Testdata.xlsx");
+		File file =new File("C:\\Users\\Bhushan\\Desktop\\Daily Time Table.xlsx");
 		FileInputStream fis = new FileInputStream(file);
 		
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
 		
-		XSSFSheet sheet = workbook.getSheet("Sheet1");
+		XSSFSheet sheet = workbook.getSheet("TimeTable");
 		
-		XSSFRow row = sheet.getRow(1);
+		XSSFRow row2 = sheet.getRow(2);
 		
-		XSSFCell cell = row.getCell(0);
-		XSSFCell cell1 = row.getCell(1);
+		XSSFCell cell = row2.getCell(2);
+		XSSFCell cell1 = row2.getCell(3);
 		
 		String Value = cell.getStringCellValue();
 		String Value1 = cell1.getStringCellValue();
@@ -39,17 +39,18 @@ public class Read_Excel_Data {
 		
 		//To iterate over all data
 		
-		XSSFSheet sheet1 = workbook.getSheet("Sheet1");
+		XSSFSheet sheet1 = workbook.getSheet("TimeTable");
 		int rowcount  = sheet1.getLastRowNum();
 		
 		System.out.println(rowcount);
 		for(int i =1;i<rowcount;i++)
 		{
-			XSSFRow row1 = sheet1.getRow(i);
-			String Testtype = row1.getCell(0).getStringCellValue();
-			String Testdata1 = row1.getCell(1).getStringCellValue();
+			XSSFRow row = sheet1.getRow(i);
+			String Testtype = row.getCell(1).getStringCellValue();
+			String Testdata1 = row.getCell(2).getStringCellValue();
+			String Testdata2 = row.getCell(3).getStringCellValue();
 			
-			System.out.println(Testtype + " "+ Testdata1);
+			System.out.println(Testtype + " : "+ Testdata1 + " : " +Testdata2);
 			
 		}
 		

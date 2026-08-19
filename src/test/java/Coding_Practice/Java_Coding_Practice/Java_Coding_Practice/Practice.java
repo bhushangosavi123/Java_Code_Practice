@@ -10,8 +10,35 @@ public class Practice{
 	
 	public static void main (String[] args)
 	{
+
+		int number = 27;
 		
-		//17.	Find missing numbers from Array
+		boolean isprime = true;
+		
+		if(number<=1)
+		{
+			
+			isprime= false;
+			
+		}
+	
+		for(int i = 2;i<=Math.sqrt(number);i++)
+		{
+			
+			if(number%i==0)
+			{
+				
+				isprime =false;
+				break;
+			}
+			
+			
+		}
+		
+		
+		
+		System.out.println(isprime);
+		
 		
 		
 		

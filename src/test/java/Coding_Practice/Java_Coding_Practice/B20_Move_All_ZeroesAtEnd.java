@@ -13,10 +13,10 @@ public class B20_Move_All_ZeroesAtEnd {
 		
 
 int j = 0;
-int temp;
+
         for (int i = 0; i < array.length; i++) {
             if (array[i] != 0) {
-                temp = array[i];
+               int temp = array[i];
                 array[i] = array[j];
                 array[j] = temp;
                 j++;

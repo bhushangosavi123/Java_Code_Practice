@@ -42,11 +42,14 @@ public class C24_Find_Most_Repeated_Character {
 		System.out.println("Occurrence count : " + maxCount);
 
 		for (char key : map.keySet()) {
-			if (map.get(key) == maxCount) {
+			if (map.get(key) > maxCount) {
 
 				System.out.println(key + " = " + map.get(key));
 			}
 		}
+		
+		
+		
 
 	}
 
